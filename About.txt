@@ -1,0 +1,18 @@
+Inspiration
+We see many suicides on social media day by day. In fact, there is one suicide every 11 minutes in the world and suicide rates double almost ANNUALLY. Many loved ones and precious lives are lost due to carelessness and lack of care and notice. Day by day, as high schoolers, we see fellow peers and friends posting many pictures which could potentially show signs of suicide on social media. Let us not be careless: let's do something about it. Using our resources and tools, we have built an image detection algorithm that can detect early signs of depression and help save lives.
+What it does?
+You upload an image to our detection software, and we give an output of the chances of the person suiciding or not. The statistics (suicide chance rate) are built on convolutional neural networks which is a type of artificial neural network used for image processing and recognition. You can proceed to get early signs about suicide of the person from their social media posts or general photos to detect it before it is too late.
+How we built it
+We used OpenCV to read the images and process them to our computer. We additionally used many libraries in Python such as TensorFlow and Keras API to build a convolutional neural network that processes the eye and head position, eyelid location, and facial expressions to develop a statistic and accurate probability of the suicide rate of a person. We used matplotlib to graph our accuracy in our deep learning model (epochs) and to calculate the probability that the person might be in ideas to harm themself.
+Challenges we ran into
+Debugging the neural network, and the neural network wasn't learning big datasets of images that we were training fast. We couldn't find an efficient library to process the images and we spent a lot of time searching for that. Many errors of dataset size, prediction accuracy, and ultimately condensing the person's face to filter out what we want and don't want (deep learning model). For the website, it was really hard to integrate the front-end (UI) to the back-end (ML model), when the user has to upload a file (of a person's face) and to project the accuracy of the model for that input.
+Accomplishments that we're proud of
+Grew from 36% accuracy on our deep learning model to a personal high of 97.8% of suicide chance prediction. Usage of complex libraries such as Keras API and TensorFlow functions. Improving the time of training the model (sometimes it had too high of a dataset, sometimes it would take hours to run) and ultimately making it efficient for the user. Learned how to integrate front-end websites to back-end ML models using various software frameworks.
+What we learned
+How to develop a deep learning model, neural networks and use Python to import libraries and functions related to image processing. We learned how to train huge datasets (700+ images) and project the results and probability rate swiftly, without much delay. We also learned how to implement the input of a JPEG file into a hosted website, and integrating that to the ML model we had built in Visual Studio Code to produce graphs, which we used matplotlib for.
+What's next for LifeVision AI: Using Neural Networks & CV to detect suicide
+Applications with integrating our ML models with social media apps, such as SnapChat, Instagram, Twitter, and Facebook. We don't have the permissions for the token API, but for developers who do, they can implement our model and detect suicide rates for their loved ones and prevent a dear loss.
+Built With css html keras api opencv python tailwind tensorflow
+Try it out
+
+**USE PERSONAL PNG JPG IMAGES AS INPUT**
