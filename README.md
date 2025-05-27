@@ -1,4 +1,4 @@
-# Instagram Facial Emotion Suicide Risk Detection
+# LifeVision
 
 A machine learning pipeline that processes Instagram images to detect emotional cues and estimate suicide risk based on facial expressions.
 
